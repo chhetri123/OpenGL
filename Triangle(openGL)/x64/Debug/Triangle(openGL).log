@@ -1,3 +1,4 @@
-﻿  triangle.cpp
-  LINK : C:\Users\HP\OneDrive\Desktop\OpenGl\Triangle(openGL)\x64\Debug\Triangle(openGL).exe not found or not built by the last incremental link; performing full link
-  Triangle(openGL).vcxproj -> C:\Users\HP\OneDrive\Desktop\OpenGl\Triangle(openGL)\x64\Debug\Triangle(openGL).exe
+﻿triangle.obj : error LNK2005: main already defined in 3-triangle.obj
+triangle.obj : error LNK2005: "char const * const vertexShaderSource" (?vertexShaderSource@@3PEBDEB) already defined in 3-triangle.obj
+triangle.obj : error LNK2005: "char const * const fragmentShaderSource" (?fragmentShaderSource@@3PEBDEB) already defined in 3-triangle.obj
+C:\Users\HP\OneDrive\Desktop\OpenGl\Triangle(openGL)\x64\Debug\Triangle(openGL).exe : fatal error LNK1169: one or more multiply defined symbols found
