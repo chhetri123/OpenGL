@@ -14,6 +14,7 @@ std::string get_file_contents(const char* filename);
 
 class Shader {
 public:
+	//reference ID of the Shader Program 
 	GLuint ID;
 	// Constructs that build the shader Progrma from 2 Different shaders 
 	Shader(const char* vertexFile, const char* fragmentfile);
